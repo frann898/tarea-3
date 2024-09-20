@@ -1,0 +1,46 @@
+.contenedor{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(8 1fr);
+    grid-template-rows: 50px 50px 170px 40px;
+   
+}
+.contenedor .cabecera{
+    background-color: coral;
+    grid-column: 1/9;
+    margin: 10px;
+}
+.menu{
+    background-color: beige;
+    grid-column: 1/9;
+    margin: 10px;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+    grid-column: 1/7;
+    margin: 10px;
+}
+.contenido1 , .contenido2{
+    background-color: brown;
+    margin: 5%;
+    width: 40%;
+    height: 70%;
+}
+.publicidad{
+    background-color: blueviolet;
+    grid-column: 7/9;
+    margin: 10px;
+}
+.pieDpagina{
+    background-color: cornflowerblue;
+    grid-column: 1/9;
+    margin: 10px;
+}
+.publicidad .publi{
+    margin: 5%;
+    width: 90%;
+    height: 28%;
+    background-color: darkslategrey;
+}
